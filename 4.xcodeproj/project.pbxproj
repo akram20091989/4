@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7516B7A2292DD91E00EA7C63 /* autoParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516B7A1292DD91E00EA7C63 /* autoParts.swift */; };
+		7516B7A4292E0A0000EA7C63 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516B7A3292E0A0000EA7C63 /* Shop.swift */; };
 		754BB753292B95F700AE4591 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BB752292B95F700AE4591 /* main.swift */; };
+		754BB760292BDCE800AE4591 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BB75F292BDCE800AE4591 /* Products.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7516B7A1292DD91E00EA7C63 /* autoParts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoParts.swift; sourceTree = "<group>"; };
+		7516B7A3292E0A0000EA7C63 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		754BB74F292B95F700AE4591 /* 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 4; sourceTree = BUILT_PRODUCTS_DIR; };
 		754BB752292B95F700AE4591 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		754BB75F292BDCE800AE4591 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				754BB752292B95F700AE4591 /* main.swift */,
+				754BB75F292BDCE800AE4591 /* Products.swift */,
+				7516B7A1292DD91E00EA7C63 /* autoParts.swift */,
+				7516B7A3292E0A0000EA7C63 /* Shop.swift */,
 			);
 			path = 4;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7516B7A2292DD91E00EA7C63 /* autoParts.swift in Sources */,
 				754BB753292B95F700AE4591 /* main.swift in Sources */,
+				754BB760292BDCE800AE4591 /* Products.swift in Sources */,
+				7516B7A4292E0A0000EA7C63 /* Shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
